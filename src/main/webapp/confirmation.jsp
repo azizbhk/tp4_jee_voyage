@@ -14,21 +14,21 @@
 <div class="container">
 <div class="card">
   <div class="card-header">
-    Modification des Produits
+    Modification des voyages
   </div>
   <div class="card-body">
       <form action="update.do" method="post" >
       <div hidden class="form-group"  >
-       <label class="control-label">ID Produit :</label>
-       <input type="text" name="id" class="form-control" value="${produit.idProduit}"/>
+       <label class="control-label">ID voyage :</label>
+       <input type="text" name="id" class="form-control" value="${voyage.idvoyage}"/>
       </div>
       <div class="form-group">
-       <label class="control-label">Nom Produit :</label>
-       <input type="text" name="nom" class="form-control" value="${produit.nomProduit}"/>
+       <label class="control-label">Nom voyage :</label>
+       <input type="text" name="nom" class="form-control" value="${voyage.nomvoyage}"/>
       </div>
       <div class="form-group">
        <label class="control-label">Prix :</label>
-       <input type="text" name="prix" class="form-control" value="${produit.prix}"/>
+       <input type="text" name="prix" class="form-control" value="${voyage.prix}"/>
       </div>
       <div>
         <button type="submit" class="btn btn-primary">Modifier</button>
